@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechShop - Tienda Online</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">Tech<span>Shop</span></a>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#ofertas">Ofertas</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="user-actions">
+                <a href="#" class="cart-btn"><i class="fas fa-shopping-cart"></i> <span class="cart-count">3</span></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Bienvenido a TechShop</h1>
+                <p>Encuentra los mejores productos tecnológicos al mejor precio</p>
+                <a href="#productos" class="btn">Ver Catálogo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Grid -->
+    <section class="products" id="productos">
+        <div class="container">
+            <h2 class="section-title">Nuestros Productos</h2>
+            <div class="product-grid">
+                <!-- Producto 1 -->
+                <div class="product-card">
+                    <div class="product-badge">-20%</div>
+                    <img src="https://via.placeholder.com/300x200?text=Smartphone" alt="Smartphone">
+                    <h3>Smartphone X10</h3>
+                    <div class="product-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="product-price">
+                        <span class="original-price">$599</span>
+                        <span class="current-price">$479</span>
+                    </div>
+                    <button class="add-to-cart">Añadir al Carrito</button>
+                </div>
+
+                <!-- Producto 2 -->
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x200?text=Laptop" alt="Laptop">
+                    <h3>Laptop Pro</h3>
+                    <div class="product-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="product-price">
+                        <span class="current-price">$899</span>
+                    </div>
+                    <button class="add-to-cart">Añadir al Carrito</button>
+                </div>
+
+                <!-- Producto 3 -->
+                <div class="product-card">
+                    <div class="product-badge">Nuevo</div>
+                    <img src="https://via.placeholder.com/300x200?text=Smartwatch" alt="Smartwatch">
+                    <h3>Smartwatch Fit</h3>
+                    <div class="product-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="product-price">
+                        <span class="current-price">$199</span>
+                    </div>
+                    <button class="add-to-cart">Añadir al Carrito</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contacto">
+        <div class="container">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h3>TechShop</h3>
+                    <p>Tu tienda de confianza para tecnología de última generación.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Contacto</h3>
+                    <p><i class="fas fa-envelope"></i> info@techshop.com</p>
+                    <p><i class="fas fa-phone"></i> +1 234 567 890</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Redes Sociales</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 TechShop. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
